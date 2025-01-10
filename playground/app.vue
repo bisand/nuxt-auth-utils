@@ -82,6 +82,12 @@ const providers = computed(() =>
       icon: 'i-simple-icons-auth0',
     },
     {
+      label: user.value?.okta || 'Okta',
+      to: '/auth/okta',
+      disabled: Boolean(user.value?.okta),
+      icon: 'i-simple-icons-okta',
+    },
+    {
       label: user.value?.battledotnet || 'Battle.net',
       to: '/auth/battledotnet',
       disabled: Boolean(user.value?.battledotnet),

@@ -196,6 +196,16 @@ export default defineNuxtModule<ModuleOptions>({
       audience: '',
       redirectURL: '',
     })
+    // Okta OAuth
+    runtimeConfig.oauth.okta = defu(runtimeConfig.oauth.okta, {
+      clientId: '',
+      clientSecret: '',
+      domain: '',
+      authorizationServer: '',
+      audience: '',
+      redirectURL: '',
+      scope: [],
+    })
     // WorkOS OAuth
     runtimeConfig.oauth.workos = defu(runtimeConfig.oauth.workos, {
       clientId: '',

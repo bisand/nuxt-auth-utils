@@ -9,6 +9,7 @@ declare module '#auth-utils' {
     google?: string
     twitch?: string
     auth0?: string
+    okta?: string
     microsoft?: string
     discord?: string
     battledotnet?: string
