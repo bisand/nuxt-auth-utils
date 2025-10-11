@@ -1,0 +1,9 @@
+{
+  "name": "auth-utils",
+  "configKey": "auth",
+  "version": "0.5.25",
+  "builder": {
+    "@nuxt/module-builder": "1.0.2",
+    "unbuild": "3.6.1"
+  }
+}
